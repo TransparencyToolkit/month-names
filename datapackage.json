@@ -1,0 +1,32 @@
+{
+  "name": "month-names",
+  "title": "Month Names",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "resources": [
+    {
+      "name": "monthnames",
+      "path": "monthnames.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 176,
+      "schema": {
+        "fields": [
+          {
+            "name": "en",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "de",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "description": "The months of the year internationalized to different languages",
+  "repository": "git://github.com/TransparencyToolkit/month-names.git"
+}
